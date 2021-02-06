@@ -1,0 +1,1 @@
+Attempt to call function 'get_name' in base 'null instance' on a null instance. - res://projectiles/kinfe.gd:17 - at function: _on_self_entered

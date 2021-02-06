@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://textures_&_sprites/knife_big.png" type="Texture" id=1]
+[ext_resource path="res://projectiles/knife.gd" type="Script" id=2]
+
+[node name="Knife" type="Node2D"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+speed = 650
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 1 )
+
+[node name="KnifeArea" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="KnifeArea"]
+polygon = PoolVector2Array( -18, -3, 18, -3, 18, 3, -10, 3 )
+
+[node name="DeathTimer" type="Timer" parent="."]
+wait_time = 0.01
+[connection signal="area_shape_entered" from="KnifeArea" to="." method="_on_self_entered"]
+[connection signal="timeout" from="DeathTimer" to="." method="_on_DeathTimer_timeout"]
