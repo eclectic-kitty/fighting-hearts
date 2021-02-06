@@ -6,7 +6,7 @@
 
 This plugin is now supported in [Godot Extended Library Discord](https://discord.gg/JNrcucg), check out the [Godot Extended Library Project](https://github.com/godot-extended-libraries)!
 
-<img src="addons/github-integration/github-logo.png" align="left" width="64" height="64">
+<img src="./github-logo.png" align="left" width="64" height="64">
 
 # GitHub Integration
 A complete GitHub integration for your Godot Editor! Manage your project without even opening your browser.
@@ -16,7 +16,7 @@ Version: *1.4.0*
 Wiki: *[supported](https://github.com/fenix-hub/godot-engine.github-integration/wiki)*  
 Godot Version: *3.2.3stable*  
 
-<img align="center" src="addons/github-integration/screenshots/banner.png">
+<img align="center" src="./screenshots/banner.png">
 
 ## What is this?
 *GitHub Integration* is a addon for Godot Engine that I've created mainly for a personal purpose.  
