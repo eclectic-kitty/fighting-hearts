@@ -1,3 +1,5 @@
+//this shader was adapted by Andrew Wilkes for their game here: https://github.com/andrew-wilkes/godotia
+
 // Much of this code was adapted from: https://www.shadertoy.com/view/MtB3zW
 shader_type canvas_item;
 
